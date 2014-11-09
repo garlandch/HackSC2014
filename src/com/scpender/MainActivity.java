@@ -1,4 +1,6 @@
-package com.example.scpender;
+package com.scpender;
+
+import com.example.scpender.R;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
