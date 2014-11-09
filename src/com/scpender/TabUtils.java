@@ -3,6 +3,7 @@ package com.scpender;
 import com.example.scpender.R;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.view.View;
 import android.widget.TabWidget;
 
@@ -57,6 +58,31 @@ public class TabUtils
         {
             return;
         }
+        switch(id)
+        {
+	        case R.id.totalstab:
+	        {
+	        	Intent intent = new Intent(a, MainActivity.class);
+	        	intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+	        	a.startActivity(intent);
+	        	break;
+	        }
+	        case R.id.badassetstab:
+	        {
+	        	Intent intent = new Intent(a, BadAssetsPage.class);
+	        	intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+	        	a.startActivity(intent);
+	        	break;
+	        }
+	        case R.id.archivestab:
+	        {
+	        	Intent intent = new Intent(a, ArchivesPage.class);
+	        	intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+	        	a.startActivity(intent);
+	        	break;
+	        }
+        }
+        a.overridePendingTransition(0, 0);
         activateTab(a, id);
     }
 }

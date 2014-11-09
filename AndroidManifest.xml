@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.scpender.BadAssetsPage"
+            android:label="@string/title_activity_bad_assets_page" >
+        </activity>
+        <activity
+            android:name="com.scpender.ArchivesPage"
+            android:label="@string/title_activity_archives_page" >
+        </activity>
     </application>
 
 </manifest>
