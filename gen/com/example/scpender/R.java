@@ -987,21 +987,6 @@ containing a value of this type.
         public static final int buttonbar_pressed=0x7f02005a;
         public static final int buttonbarbackground=0x7f02005b;
         public static final int ic_launcher=0x7f02005c;
-        public static final int ic_tab_albums=0x7f02005d;
-        public static final int ic_tab_albums_selected=0x7f02005e;
-        public static final int ic_tab_albums_unselected=0x7f02005f;
-        public static final int ic_tab_artists=0x7f020060;
-        public static final int ic_tab_artists_selected=0x7f020061;
-        public static final int ic_tab_artists_unselected=0x7f020062;
-        public static final int ic_tab_playback=0x7f020063;
-        public static final int ic_tab_playback_selected=0x7f020064;
-        public static final int ic_tab_playback_unselected=0x7f020065;
-        public static final int ic_tab_playlists=0x7f020066;
-        public static final int ic_tab_playlists_selected=0x7f020067;
-        public static final int ic_tab_playlists_unselected=0x7f020068;
-        public static final int ic_tab_songs=0x7f020069;
-        public static final int ic_tab_songs_selected=0x7f02006a;
-        public static final int ic_tab_songs_unselected=0x7f02006b;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1126,6 +1111,7 @@ containing a value of this type.
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
+        public static final int scpender=0x7f0c0001;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
