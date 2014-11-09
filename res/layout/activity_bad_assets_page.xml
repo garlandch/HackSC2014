@@ -3,16 +3,21 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.scpender.BadAssetsPage"
-    tools:ignore="MergeRootFrame" >
+    tools:context="com.scpender.BadAssetsPage" >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical" >
-        
+
         <include layout="@layout/buttonbar" />
-    
+
+        <ListView
+            android:id="@+id/BadAssetsListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+        
     </LinearLayout>
 
 </FrameLayout>
