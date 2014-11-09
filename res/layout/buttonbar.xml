@@ -39,7 +39,7 @@
         android:layout_height="64dip" />
 
     <TextView
-        android:id="@+id/btplaylisttab"
+        android:id="@+id/badassetstab"
         android:focusable="true"
         android:background="@drawable/buttonbarbackground"
         android:text="Bad Assets"
@@ -55,7 +55,7 @@
         android:layout_height="64dip" />
     
     <TextView
-        android:id="@+id/btbluetoothtab"
+        android:id="@+id/archivestab"
         android:focusable="false"
         android:background="@drawable/buttonbarbackground"
         android:text="Archives"

@@ -4,5 +4,7 @@
     <string name="app_name">SCpender</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_bad_assets_page">BadAssetsPage</string>
+    <string name="title_activity_archives_page">ArchivesPage</string>
 
 </resources>
